@@ -2,6 +2,7 @@ import React from 'react';
 import User from './components/User';
 import Submit from './components/Submit';
 
+
 const user = {
   name: 'pepito',
   age: 18,
@@ -69,11 +70,12 @@ const App = () => (
             <User name={user.name} age={user.age} comment={user.comment.lastComment} />
             {users.map((u) => (
               <User
-                key={u.id}
-                name={u.name}
-                age={u.age}
-                job={u.job}
-                comment={u.comment.lastComment}
+                 key={u.id}
+                 name={u.name}
+                 age={u.age}
+                 job={u.job}
+                 comment={u.comment.lastComment}
+                
               />
             ))}
           </div>

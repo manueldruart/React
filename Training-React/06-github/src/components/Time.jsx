@@ -1,8 +1,8 @@
 import React from 'react';
-import files from '../data/files';
+import moment from 'moment';
 
-const Time = () => (
-    files.update_at
-)
+const Time = ({ updateAt }) => (
+  <div className="text-right">{moment(updateAt).fromNow()}</div>
+);
 
 export default Time;

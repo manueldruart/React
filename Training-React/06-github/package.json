@@ -10,6 +10,7 @@
     "lint:format": "prettier  --loglevel warn --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\" "
   },
   "dependencies": {
+    "moment": "^2.29.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
