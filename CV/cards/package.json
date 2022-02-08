@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@merc/react-timeline": "^0.1.42"
+  }
+}
