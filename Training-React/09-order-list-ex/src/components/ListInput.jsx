@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const ListInput = ({ AddItem, SetAddItem, AddItemToList }) => {
-  const [Error, setError] = useState('');
+  const [Error, SetError] = useState('');
 
   useEffect(() => {
     console.log('My component is created');
@@ -14,7 +14,7 @@ const ListInput = ({ AddItem, SetAddItem, AddItemToList }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setError('min 3 character is required');
+    SetError('');
     AddItemToList();
   };
 
@@ -31,12 +31,13 @@ const ListInput = ({ AddItem, SetAddItem, AddItemToList }) => {
           className="block w-full px-2 py-1 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
           value={AddItem}
           onChange={(e) => SetAddItem(e.target.value)}
+          minLength={3}
         />
         <div className="text-green-500">
           {Error ? 'The product must have a minimum of 3 characters' : ''}
         </div>
       </div>
-      <div className="flex justify-end">
+      <div className="flex justify-">
         <button
           type="submit"
           className="px-2 py-2 font-medium text-white text-lg bg-indigo-200 hover:bg-indigo-700 rounded-md">

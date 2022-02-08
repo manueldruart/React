@@ -2,8 +2,8 @@ import React from 'react';
 
 const ProductListItem = ({ product }) => {
   return (
-    <div className=" w-1/2 mx-auto m-8 bg-red-300 shadow">
-      <span>
+    <div className="flex items-center w-1/2 mx-auto bg-red-300 shadow">
+      <span className='flex-auto'>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-6 w-6"
