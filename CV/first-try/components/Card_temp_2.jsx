@@ -19,7 +19,7 @@ export default function Card_temp_1({ toggle, settoggle }) {
         </div>
       </div>
 
-      <div className=" h-full w-full mr-2 rounded-2xl ">
+      <div className=" w-full mr-2 rounded-2xl ">
         <p className="m-2 font-bold pl-1 text-lg text-[#5865F2]">Languages</p>
         <h1 className="m-2 text-4xl font-bold dark:text-white">Front-End, Web, App</h1>
 

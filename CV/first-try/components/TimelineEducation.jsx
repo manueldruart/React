@@ -30,7 +30,9 @@ export default function TimelineEducation() {
         date="05/2021 - 08/2021"
         iconStyle={{ background: '#F5D661', color: '#fff' }}
         icon={<Education />}>
-        <img src="/technocite.svg" alt="technocite img" className="h-8 pb-2" />
+        <a href="https://technocite.be/formations/devops" target="_blank" rel="noopener">
+          <img src="/technocite.svg" alt="technocite img" className="h-8 pb-2" />
+        </a>
         <h3 className="vertical-timeline-element-title">IT Support & Network</h3>
         <h4 className="vertical-timeline-element-subtitle">Hornu, BE</h4>
         <p>Creative Direction, User Experience, Visual Design, SEO, Online Marketing</p>
@@ -40,7 +42,9 @@ export default function TimelineEducation() {
         date="05/2021 - present"
         iconStyle={{ background: '#F5D661', color: '#fff' }}
         icon={<Education />}>
-        <h3 className="vertical-timeline-element-title">Openclassrooms</h3>
+        <a href="https://technocite.be/formations/devops" target="_blank" rel="noopener">
+          <img src="/openclassrooms.svg" alt="technocite img" className="h-9 pb-2" />
+        </a>
         <h3 className="vertical-timeline-element-title">IT</h3>
         <h4 className="vertical-timeline-element-subtitle">Online</h4>
         <p>User Experience, Visual Design</p>
@@ -50,7 +54,9 @@ export default function TimelineEducation() {
         date="03/2016 - 02/2017"
         iconStyle={{ background: '#F5D661', color: '#fff' }}
         icon={<Education />}>
-        <h3 className="vertical-timeline-element-title">ITTT</h3>
+        <a href="https://technocite.be/formations/devops" target="_blank" rel="noopener">
+          <img src="/ittt.svg" alt="technocite img" className="h-9 pb-2" />
+        </a>
         <h3 className="vertical-timeline-element-title">TEFL</h3>
         <h4 className="vertical-timeline-element-subtitle">Online</h4>
         <p>User Experience, Visual Design</p>
