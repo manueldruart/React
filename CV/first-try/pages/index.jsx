@@ -1,5 +1,9 @@
 import Layout from '../components/Layout';
-
-export default function Home() {
-  return <Layout title="Home" currentPage="home"></Layout>;
+import Home from '../components/Home';
+export default function Index() {
+  return <Layout title="Home" currentPage="home">
+    <div className=''>
+      <Home />
+    </div>
+  </Layout>;
 }
